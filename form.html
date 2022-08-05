@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Başvuru Formu</title>
+    <style>
+        .dyg{
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+
+
+</head>
+<body style="margin: bottom 100px">
+
+    <fieldset>
+        <legend>
+            <img src="" alt="">
+            <link rel="stylesheet" href="https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png">
+        </legend>
+
+
+
+
+
+        <form action="result.html" method="get">
+
+        <br><br><br>
+        <h1>ABC Tasarım Proğramı Satış ve Kurulum Sözleşmesi</h1>
+        <br><br>
+        <fieldset>
+        <legend> <strong>Sözleşme Onay</strong> </legend>
+        <br>
+        <div>
+            <input type="checkbox" name="onay" id="onay">
+            "Aşağıdaki Bilgilerin Doğruluğunu Kabul Ediyorum."
+            <br>
+            <input type="submit" value="Formu Kaydediniz">
+            <input type="reset" value="Formu Temizleyiniz" >
+        </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend> <strong>Kişisel Bilgileriniz</strong> </legend>
+            <br>
+            <div>
+                <label class="dyg" for="ID">Form Güvenlik ID</label>
+                <input type="text" name="ID-Giriniz" id="ID" placeholder="[123...abcdefg...]" >
+                <br>
+                <label class="dyg" for="name">Adınız</label>
+                <input type="text" name="isim" placeholder="Adınızı Giriniz" id="name">
+                <br>
+                <label class="dyg" for="surname">Soyadınız</label>
+                <input type="text" name="Soy-İsim" id="surname" placeholder="Soyadınızı Giriniz">
+                <br>
+                <label class="dyg" for="age">Yaşınız</label>
+                <input type="text" name="yaş" id="age" placeholder="Yaşınızı Giriniz">
+                <br>
+                <label class="dyg" for="email">Mail Adresini Giriniz</label>
+                <input type="text" name="mail-adresi" id="email" placeholder="@e-maili Giriniz">
+                <br>
+                <label for="img">Fotoğrafınızı <br> Ekleyiniz</label>
+                <input type="file" name="seçilen-resim" id="img" placeholder="Resminiz Yükleyiniz">
+            </div>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend> <strong>Diğer Bilgileriniz</strong> </legend>
+            <h4>
+            <p><strong> &nbsp;&nbsp;&nbsp;&nbsp; *Buradaki Alanlar Mesleki Deneyimi Kapsar!</strong></p>
+            </h4>
+            <br><br>
+
+            <div>
+                <label for="tarih">Sektöre Giriş Tarihini <br> Ekleyiniz: &nbsp;&nbsp;&nbsp; </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="date" name="seçilen-tarih" id="tarih" placeholder="Tarih Ekleyiniz">
+                <br>
+            </div>
+
+            <div>
+                <label for="tecrübe">Sektördeki Deneyim Sürenizi <br> Belirtiniz: </label>
+
+                <br>
+                &nbsp;&nbsp;
+                <input style="margin-left: 120px" type="radio" name="deneyim-miktarı" id="tecrübe">
+
+                (0-5 yıl)
+                <br>
+                &nbsp;&nbsp;                <input style="margin-left: 120px" type="radio" name="deneyim-miktarı" id="tecrübe">
+                (5-10 yıl)
+                <br>
+                &nbsp;&nbsp;
+                <input style="margin-left: 120px" type="radio" name="deneyim-miktarı" id="tecrübe">
+                (10-15 yıl)
+                <br>
+                &nbsp;&nbsp;
+                <input style="margin-left: 120px" type="radio" name="deneyim-miktarı" id="tecrübe">
+                (15 yıl ve üzeri)
+                <br>
+                &nbsp;&nbsp;
+                <br>            
+            </div>
+
+            <div>
+                <label for="software">Programlama Dillerini Seçiniz: &nbsp;&nbsp; </label>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+
+                <select
+                name="Programlama-Dillerini-Seciniz" id="software" size="7">
+                    <option value="C#">C#</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="React">React</option>
+                </select>
+            </div>            
+        </fieldset>
+
+        <fieldset>
+
+            <legend> <strong>Sözleşme Kopyası</strong> </legend>
+            <label for=""> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis corrupti voluptatibus quisquam harum necessitatibus, vero iste ipsum repellendus architecto accusantium ut pariatur itaque iure magnam suscipit rerum delectus odio illo repudiandae non nam! Illum esse repellat explicabo animi, itaque mollitia dicta distinctio vel magnam eveniet qui ipsam nihil sint quod.</p> </label>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>
+            
+            <label for=""><strong>Mail Listesi</strong></label></legend>
+
+            <fieldset>
+            <div>
+                <label for="evet">Mail Listesine Katılmak <strong>İstiyorum</strong> </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="onay" id="evet" value="Mail Listesine Katılmak İstiyorum" >
+                
+
+
+            </div></fieldset>
+
+            <fieldset>
+            <div>
+                <label for="hayır">Mail Listesine Katılmak <strong>İstemiyorum</strong> </label>
+                <input type="radio" name="red" id="hayır" value="Mail Listesine Katılmak İstemiyorum">
+            </div></fieldset>       
+        </fieldset>
+
+    </fieldset>
+</body>
+</html>
